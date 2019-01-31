@@ -9,7 +9,7 @@ if(isset($_POST['login'])){
     
         $username = $_POST['username'];
         $password = $_POST['password'];
-		
+	// set form manager username and password in login 	
  
 	if(empty($username) || empty($password)){
 		$error.= "Please fill in all the details before you proceed";
