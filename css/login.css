@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+#contain{
+	height:100%;
+	width:80%;
+	margin-left:20%;
+	padding-top:80px;
+	margin-top:2px;
+	background:#dadada;
+	border-radius:10px;
+}
+#login{
+	padding-top:20px;
+	width:60%;
+	height:auto;
+	border-top:12px;
+	border:1px solid #00ffff;
+	background:#dadada;
+	float:center;
+	border-radius:10px;
+}
+#swaplogin{
+	margin:auto;
+	width:auto;
+	height:auto;
+	text-align:center;
+}
+#swaplogin a{
+	
+	text-align:center;
+	padding-left:20px;
+	color:#008000;
+	padding-right:20px;
+}
+#swaplogin ul li a:hover{
+	color:#000080;
+}
+#swaplogin ul li{
+	float:left;
+	border-left:1px solid #008000;
+	border-right:1px solid #008000;
+	margin-left:5px;
+	padding-right:5px;
+}
+
+
+#signup{
+	padding-top:30px;
+	width:80%;
+	height:auto;
+	margin:auto;
+	border:1px solid #00ffff;
+	background:#dadada;
+	float:center;
+	border-radius:10px;
+	text-align:center;
+}
+#error{
+	width:auto;
+	height:auto;
+	text-align:center;
+	color:#F00;
+	background:#c7efeb;
+	border:1px solid #e94b07;
+	border-radius:5px;
+}
+
