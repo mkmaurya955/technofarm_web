@@ -19,7 +19,7 @@ if(isset($_POST['login'])){
 		$result = mysqli_fetch_array($query);
 		if($result > 0){
 			$_SESSION['surname'] = $username;
-			header("Location:localhost/technofarm_web/admin/stocks.php");
+			header("Location:./admin/stocks.php");
 		}else{
 		  $error.= "You entered the wrong Username or Password. Try again.";
 		}
